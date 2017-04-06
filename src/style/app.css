@@ -1,0 +1,28 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+}
+
+a {
+  color: #03A9F4;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.book-row{}
+.book-row img{
+  max-height: 128px;
+}
+.edit-view-table tr td:first-child{
+  font-weight: bold;
+}

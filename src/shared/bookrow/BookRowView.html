@@ -1,0 +1,15 @@
+<td>{{book.title}}</td>
+<td>{{book.descr}}</td>
+<td>{{book.getFormattedDate()}}</td>
+<td>
+  <img ng-src="{{book.image}}">
+</td>
+<td>
+  <button class="waves-effect waves-light btn" ng-click="onEdit()">
+    edit
+  </button>
+  <button class="waves-effect waves-light red btn" ng-click="onDelete()">
+    delete
+  </button>
+</td>
+

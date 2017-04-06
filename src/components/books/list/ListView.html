@@ -1,0 +1,20 @@
+<table class="bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tr class="book-row" book-row ng-repeat="book in bookList"
+        book="book"
+        on-edit="onBookEdit(book)"
+        on-delete="onBookDelete(book)"
+    ></tr>
+    <tr>
+        <td colspan="5" style="text-align: center;">
+            <button class="waves-effect waves-light btn" ng-click="onBookAdd()">Add new</button>
+        </td>
+    </tr>
+</table>
